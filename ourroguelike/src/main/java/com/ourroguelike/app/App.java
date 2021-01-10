@@ -1,6 +1,7 @@
 package com.ourroguelike.app;
 import com.ourroguelike.mvc.*;
 import com.ourroguelike.world.*;
+import com.ourroguelike.world.generator.*;
 import com.googlecode.lanterna.*;
 import com.googlecode.lanterna.graphics.*;
 import com.googlecode.lanterna.input.*;
@@ -18,13 +19,14 @@ public class App {
     try {
       TerminalScreen screen = new DefaultTerminalFactory().createScreen();
         
-      Model model = new RoguelikeModel();
+      Model model = new RoguelikeModel(new RandomGenerator());
       View view = new LanternaView(screen, model);
 
       view.start();
         
       while(true) {
         view.redraw();
+        screen.readInput();
       }
     } catch (Exception exn) {
       System.out.println(exn);

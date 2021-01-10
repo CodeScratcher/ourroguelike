@@ -1,2 +1,8 @@
-/home/runner/rougelike-dad/ourrougelike/src/main/java/com/ourrougelike/app/App.java
-/home/runner/rougelike-dad/ourrougelike/src/main/java/com/ourrougelike/app/Player.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/mvc/RoguelikeModel.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/app/Player.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/world/Tile.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/world/SingleRepresentationTile.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/mvc/LanternaView.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/app/App.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/mvc/Model.java
+/home/runner/roguelike-dad/ourroguelike/src/main/java/com/ourroguelike/mvc/View.java

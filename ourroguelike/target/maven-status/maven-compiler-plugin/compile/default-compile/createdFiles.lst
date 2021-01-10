@@ -1,0 +1,8 @@
+com/ourroguelike/mvc/LanternaView.class
+com/ourroguelike/mvc/Model.class
+com/ourroguelike/mvc/RoguelikeModel.class
+com/ourroguelike/mvc/View.class
+com/ourroguelike/world/Tile.class
+com/ourroguelike/app/App.class
+com/ourroguelike/app/Player.class
+com/ourroguelike/world/SingleRepresentationTile.class
